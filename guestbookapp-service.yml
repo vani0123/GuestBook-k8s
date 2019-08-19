@@ -3,7 +3,8 @@ kind: Service
 metadata:
   name: guestbookapp-service
   labels:
-   app: guestbook-app
+    name: guestbookapp
+    app: guestbook-app
 spec:
   type: LoadBalancer
   ports:
