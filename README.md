@@ -1,6 +1,10 @@
 # GuestBook-k8s
 
 Please find the steps taken
+
+Pre-requisites:
+Kubenetes cluster is created on GCP.
+
 1. Create the Redis master pod. File used- redis-master-controller.yml
 $ kubectl create -f redis-master-controller.yml
 
