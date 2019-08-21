@@ -9,8 +9,9 @@ spec:
   selector:
     app: guestbook
   template:
-    labels:
-      app: guestbook
+    metadata:
+     labels:
+       app: guestbook
     spec:
       containers:
         - name: guestbook
